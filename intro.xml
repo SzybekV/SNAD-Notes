@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<academy title="Sparta Global Academy">
+ <trainer>
+          <name>Nish Mandal</name>
+          <stream>Engineering</stream>
+          <course>C#TAE</course>
+          <location>Birmingham</location>
+ </trainer>
+ <trainer>
+          <name>Cathy French</name>
+          <stream>Engineering</stream>
+          <course>C#DEV</course>
+          <location>London</location>
+ </trainer>
+ </academy>
+
+ <Tiger>
+  <age>14</age>
+  <ageCatYears>91</ageCatYears>
+  <isHero>true</isHero>
+  <abilities>
+    <jump>true</jump>
+    <runSpeed>1000000000</runSpeed>
+    <actions>
+      <action>Dimensional Rip</action>
+      <action>Laser Eyes</action>
+    </actions>
+  </abilities>
+</Tiger>

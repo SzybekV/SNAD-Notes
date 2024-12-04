@@ -1,0 +1,11 @@
+{
+    "character": "Tiger",
+    "age": 14,
+    "ageCatYears": 91,
+    "isHero": true,
+    "abilities":{
+        "jump": true,
+        "runSpeed": 1000000000,
+        "actions": ["Dimensional Rip", "Laser Eyes"]
+    }
+}

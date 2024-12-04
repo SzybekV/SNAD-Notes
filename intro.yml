@@ -1,0 +1,21 @@
+---
+#cat details
+Ayla:
+  name: "Ayla"
+  race: Egyptian Mau
+  age:  11
+  qualifications:
+    - Cute
+    - Warm
+    - Fast
+
+Tiger:
+  age: 14
+  ageCatYears: 91
+  isHero: true
+  abilities:
+    jump: true
+    runSpeed: 1000000000
+    actions:
+      - Dimensional Rip
+      - Laser Eyes
