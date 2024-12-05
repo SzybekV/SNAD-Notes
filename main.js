@@ -109,24 +109,23 @@
 // const readline = require('readline');
 
 // const rl = readline.createInterface({
-//     input: process.stdin,
-//     output: process.stdout
+//      input: process.stdin,
+//      output: process.stdout
 // });
 
 // let random = Math.floor(Math.random() * 10) + 1;
 
 // function askQuestion(){
-//     rl.question("Guess number between 1 and 10: ", (input) => {
-//         const guess = parseInt(input);
+//      rl.question("Guess number between 1 and 10: ", (input) => {
+//          const guess = parseInt(input);
 //         let outcome = input == random ? "You win!" : input > random ? "Too High":"Too Low";
 //         console.log(outcome);
-//         if(outcome != "You win!"){
-//             askQuestion();
+//          if(outcome != "You win!"){
+//              askQuestion();
 //         } else  {
-//             rl.close();
+//              rl.close();
 //         }
 //     })
 // }
 
 // askQuestion();
-

@@ -1,7 +1,9 @@
+- [[Strings]]
+- [[Arrays]]
 - Small Enough to be put in on the Stack.
 - In JavaScript it is a Fundamental data type in JS that represents simple atomic values.
-	- `let name = "nish"`
-	- `let num = 42`
-	- `let isTrue = true`
-	- `let n = null`
-	- `let undefined`
+	- `let name = "nish"` String
+	- `let num = 42` Int
+	- `let isTrue = true` Bool
+	- `let n = null` Null
+	- `let undefined` Undefinded
