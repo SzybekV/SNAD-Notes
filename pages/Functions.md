@@ -1,2 +1,3 @@
 - [[Control Flows]]
 - [[Switch Statements]]
+- [[Math.]]
