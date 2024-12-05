@@ -106,19 +106,26 @@
 
 //Random Number game
 
-const readline = require('readline');
+// const readline = require('readline');
 
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+// const rl = readline.createInterface({
+//      input: process.stdin,
+//      output: process.stdout
+// });
 
-let random = Math.floor(Math.random() * 10) + 1;
+// let random = Math.floor(Math.random() * 10) + 1;
 
-//function askQuestion(){
-    rl.question("Guess number between 1 and 10: ", (input) => {
-        const guess = parseInt(input);
-        console.log(input == random ? "You win" : input > random ? "Too High":"Too Low");
-        rl.close();
-    })
-//}
+// function askQuestion(){
+//      rl.question("Guess number between 1 and 10: ", (input) => {
+//          const guess = parseInt(input);
+//         let outcome = input == random ? "You win!" : input > random ? "Too High":"Too Low";
+//         console.log(outcome);
+//          if(outcome != "You win!"){
+//              askQuestion();
+//         } else  {
+//              rl.close();
+//         }
+//     })
+// }
+
+// askQuestion();

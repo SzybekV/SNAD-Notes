@@ -71,7 +71,7 @@
 // console.log(grade(35));
 
 // function difficulty(input){
-//     switch(level){
+//     switch(input){
 //         case 1:
 //             return "Easy";
 //         case 2:
