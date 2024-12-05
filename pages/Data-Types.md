@@ -1,0 +1,7 @@
+- Small Enough to be put in on the Stack.
+- In JavaScript it is a Fundamental data type in JS that represents simple atomic values.
+	- `let name = "nish"`
+	- `let num = 42`
+	- `let isTrue = true`
+	- `let n = null`
+	- `let undefined`
