@@ -1,0 +1,3 @@
+- [[FizzBuzz Challange]]
+- [[Palindrome Checker]]
+- [[Random Number Game]]
