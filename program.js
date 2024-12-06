@@ -1,41 +1,36 @@
-function arrObject(palArr, uppArr, longest){
-    this.palArr = palArr;
+function arrObject(revArr, uppArr, longest){
+    this.revArr = revArr;
     this.uppArr = uppArr;
     this.longest = longest;
 }
 
 function arrayManipulator(arr){
-    let palArr = [];
+    let revArr = [];
     let uppArr = [];
 
     for(let i = 0; i < arr.length; i++){
         let evenOdd = arr[i].length % 2 == 0 ? "even":"odd";
-        let palindrome = arr[i] == arr[i].split("").reverse().join("") ? arr[i].split("").reverse().join("") : false;
 
-        if(evenOdd == "even"){
-            if(palindrome){
-                palArr.push(palindrome);
-            }
+        if (evenOdd == "even") {
+            revArr.push(arr[i].split("").reverse().join(""));
         } else {
-            if(!palindrome){
-                uppArr.push(arr[i].toUpperCase());
-            }
+            uppArr.push(arr[i].toUpperCase());
         }
     }
 
-    let lengthPalArr = 0;
+    let lengthRevArr = 0;
     let lengthUppArr = 0;
 
-    for(elemnt of palArr){
-        lengthPalArr += elemnt.length;
+    for(element of revArr){
+        lengthRevArr += element.length;
     }
-    for(elemnt of uppArr){
-        lengthUppArr += elemnt.length;
+    for(element of uppArr){
+        lengthUppArr += element.length;
     }
 
-    let longest = lengthPalArr > lengthUppArr ? palArr:uppArr;
+    let longest = lengthRevArr > lengthUppArr ? revArr:uppArr;
     
-    return new arrObject(palArr, uppArr, longest);
+    return new arrObject(revArr, uppArr, longest);
 }
 
 input = ["hello", "madam", "tygrys", "ayla", "racecar", "level", "world", "abba", "poop"];
