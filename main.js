@@ -96,11 +96,11 @@
 //     );
 // }
 
-//Palindrome Checker
+// Palindrome Checker
 
-// function palidromeChecker(inputString){
-//     return inputString == inputString.split("").reverse().join("");
-// }
+function palidromeChecker(inputString){
+    return inputString == inputString.split("").reverse().join("");
+}
 
 // console.log(palidromeChecker("hello"));
 
@@ -170,3 +170,13 @@
 // console.log("Highest for-of loop: " + highestForLoop(nums));
 // console.log("Highest while loop: " + highestWhileLoop(nums));
 // console.log("Highest do-while loop: " + highestDoWhileLoop(nums));
+
+// Object Nish Task
+// function car(make, model, year) {
+//     this.make = make;
+//     this.model = model;
+//     this.year = year;
+// }
+
+// const toyta = new car ("Toyota", "Corolla", 2020);
+// console.log(`This car is a ${toyta.year} ${toyta.model} ${toyta.make}.`);

@@ -71,7 +71,7 @@
 // console.log(grade(35));
 
 // function difficulty(input){
-//     switch(level){
+//     switch(input){
 //         case 1:
 //             return "Easy";
 //         case 2:
@@ -87,7 +87,7 @@
 
 // for(let i = 0; i < 101;  i++){
 //     console.log(
-//         i % 3 == 0 & i % 5 == 0 
+//         i % 3 == 0 && i % 5 == 0 
 //         ? "FizzBuzz"
 //         : i % 3 == 0 
 //         ? "Fizz" 
@@ -129,3 +129,44 @@
 // }
 
 // askQuestion();
+
+//Nish Iterations
+// let nums = [ 10, 6, 22, -7, 3];
+
+// function highestForLoop(nums){
+//     let highest = 0;
+//     for(let i = 0; i < nums.length; i++){
+//         if(nums[i] > highest){
+//             highest = nums[i];
+//         }
+//     }
+//     return highest;
+// }
+
+// function highestWhileLoop(nums){
+//     let highest = 0;
+//     let counter = 0;
+//     while(counter < nums.length){
+//         if(nums[counter] > highest){
+//             highest = nums[counter];
+//         }
+//         ++counter;
+//     }
+//     return highest;
+// }
+ 
+// function highestDoWhileLoop(nums){
+//     let highest = 0;
+//     let counter = 0;
+//     do {
+//         if(nums[counter] > highest){
+//             highest = nums[counter];
+//         }
+//         ++counter;
+//     } while(counter < nums.length) 
+//     return highest;
+// }
+
+// console.log("Highest for-of loop: " + highestForLoop(nums));
+// console.log("Highest while loop: " + highestWhileLoop(nums));
+// console.log("Highest do-while loop: " + highestDoWhileLoop(nums));
