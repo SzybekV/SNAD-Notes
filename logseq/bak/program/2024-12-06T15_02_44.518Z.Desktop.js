@@ -9,9 +9,10 @@ function arrayManipulator(arr){
     let uppArr = [];
 
     for(let i = 0; i < arr.length; i++){
+        console.log(i);
         let evenOdd = arr[i].length % 2 == 0 ? "even":"odd";
         let palindrome = arr[i] == arr[i].split("").reverse().join("") ? arr[i].split("").reverse().join("") : false;
-        
+
         if(evenOdd == "even"){
             if(palindrome){
                 palArr.push(palindrome);
@@ -34,9 +35,10 @@ function arrayManipulator(arr){
     }
 
     let longest = lengthPalArr > lengthUppArr ? palArr:uppArr;
+    
     return new arrObject(palArr, uppArr, longest);
 }
 
-arr = ["hello", "madam", "tygrys", "ayla"];
+input = ["hello", "madam", "tygrys", "ayla", "racecar", "level", "world", "abba", "poop"];
 
-console.log(arrayManipulator(arr));
+console.log(arrayManipulator(input));
