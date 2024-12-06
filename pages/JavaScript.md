@@ -3,3 +3,5 @@
 - [[Operators]]
 - [[Exercises]]
 - [[Data-Types]]
+- [[Iterations]]
+- [[Error Handling]]

@@ -423,6 +423,6 @@
  :builtin-pages? false
  :excluded-pages? false
  :orphan-pages? false}
- :graph/forcesettings {:link-dist 90
- :charge-strength -400
- :charge-range 1200}}
+ :graph/forcesettings {:link-dist 130
+ :charge-strength -700
+ :charge-range 900}}

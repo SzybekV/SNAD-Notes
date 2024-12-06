@@ -9,3 +9,4 @@
 		- `let isTrue = true` Bool
 		- `let n = null` Null
 		- `let undefined` Undefinded
+	- Other Data-Types: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
