@@ -1,3 +1,5 @@
+//Nish Training File
+
 // Variables
 // Function Scoped eg. defined through entire progrram and its legacy
 // var x = 3;
@@ -98,9 +100,9 @@
 
 // Palindrome Checker
 
-function palidromeChecker(inputString){
-    return inputString == inputString.split("").reverse().join("");
-}
+// function palidromeChecker(inputString){
+//     return inputString == inputString.split("").reverse().join("");
+// }
 
 // console.log(palidromeChecker("hello"));
 

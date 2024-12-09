@@ -1,3 +1,5 @@
+//Nish Training File
+
 // Variables
 // Function Scoped eg. defined through entire progrram and its legacy
 // var x = 3;
@@ -96,7 +98,7 @@
 //     );
 // }
 
-//Palindrome Checker
+// Palindrome Checker
 
 // function palidromeChecker(inputString){
 //     return inputString == inputString.split("").reverse().join("");
@@ -106,27 +108,27 @@
 
 //Random Number game
 
-// const readline = require('readline');
+const readline = require('readline');
 
-// const rl = readline.createInterface({
-//      input: process.stdin,
-//      output: process.stdout
-// });
+const rl = readline.createInterface({
+     input: process.stdin,
+     output: process.stdout
+});
 
-// let random = Math.floor(Math.random() * 10) + 1;
+let random = Math.floor(Math.random() * 10) + 1;
 
-// function askQuestion(){
-//      rl.question("Guess number between 1 and 10: ", (input) => {
-//          const guess = parseInt(input);
-//         let outcome = input == random ? "You win!" : input > random ? "Too High":"Too Low";
-//         console.log(outcome);
-//          if(outcome != "You win!"){
-//              askQuestion();
-//         } else  {
-//              rl.close();
-//         }
-//     })
-// }
+function askQuestion(){
+     rl.question("Guess number between 1 and 10: ", (input) => {
+         const guess = parseInt(input);
+        let outcome = input == random ? "You win!" : input > random ? "Too High":"Too Low";
+        console.log(outcome);
+         if(outcome != "You win!"){
+             askQuestion();
+        } else  {
+             rl.close();
+        }
+    })
+}
 
 // askQuestion();
 
@@ -171,3 +173,12 @@
 // console.log("Highest while loop: " + highestWhileLoop(nums));
 // console.log("Highest do-while loop: " + highestDoWhileLoop(nums));
 
+// Object Nish Task
+// function car(make, model, year) {
+//     this.make = make;
+//     this.model = model;
+//     this.year = year;
+// }
+
+// const toyta = new car ("Toyota", "Corolla", 2020);
+// console.log(`This car is a ${toyta.year} ${toyta.model} ${toyta.make}.`);

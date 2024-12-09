@@ -1,3 +1,5 @@
+//Nish Training File
+
 // Variables
 // Function Scoped eg. defined through entire progrram and its legacy
 // var x = 3;
@@ -96,7 +98,7 @@
 //     );
 // }
 
-//Palindrome Checker
+// Palindrome Checker
 
 // function palidromeChecker(inputString){
 //     return inputString == inputString.split("").reverse().join("");
@@ -155,18 +157,28 @@
 //     return highest;
 // }
  
-function highestDoWhileLoop(nums){
-    let highest = 0;
-    let counter = 0;
-    do {
-        if(nums[counter] > highest){
-            highest = nums[counter];
-        }
-        ++counter;
-    } while(counter < nums.length) 
-    return highest;
-}
+// function highestDoWhileLoop(nums){
+//     let highest = 0;
+//     let counter = 0;
+//     do {
+//         if(nums[counter] > highest){
+//             highest = nums[counter];
+//         }
+//         ++counter;
+//     } while(counter < nums.length) 
+//     return highest;
+// }
 
 // console.log("Highest for-of loop: " + highestForLoop(nums));
 // console.log("Highest while loop: " + highestWhileLoop(nums));
-console.log("Highest do-while loop: " + highestDoWhileLoop(nums));
+// console.log("Highest do-while loop: " + highestDoWhileLoop(nums));
+
+// Object Nish Task
+// function car(make, model, year) {
+//     this.make = make;
+//     this.model = model;
+//     this.year = year;
+// }
+
+// const toyta = new car ("Toyota", "Corolla", 2020);
+// console.log(`This car is a ${toyta.year} ${toyta.model} ${toyta.make}.`);

@@ -4,14 +4,6 @@ function arrObject(revArr, uppArr, longest){
     this.longest = longest;
 }
 
-function totalLenghtOfElements(arr){
-    let length = 0;
-    for(element of arr){
-        length += element.length;
-    }
-    return length;
-}
-
 function arrayManipulator(arr){
     let revArr = [];
     let uppArr = [];
@@ -20,17 +12,23 @@ function arrayManipulator(arr){
         let evenOdd = arr[i].length % 2 == 0 ? "even":"odd";
 
         if (evenOdd == "even") {
-            // Reverse is O(3N) time complexity
             revArr.push(arr[i].split("").reverse().join(""));
         } else {
             uppArr.push(arr[i].toUpperCase());
         }
     }
 
-    let lengthRevArr = totalLenghtOfElements(revArr);
-    let lengthUppArr = totalLenghtOfElements(uppArr);
+    let lengthRevArr = 0;
+    let lengthUppArr = 0;
 
-    let longest = lengthRevArr == lengthUppArr ? "Equal" : lengthRevArr > lengthUppArr ? revArr:uppArr;
+    for(element of revArr){
+        lengthRevArr += element.length;
+    }
+    for(element of uppArr){
+        lengthUppArr += element.length;
+    }
+
+    let longest = lengthRevArr > lengthUppArr ? revArr:uppArr;
     
     return new arrObject(revArr, uppArr, longest);
 }

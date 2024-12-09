@@ -4,7 +4,7 @@ function arrObject(revArr, uppArr, longest){
     this.longest = longest;
 }
 
-function totalLenghtOfElements(arr){
+function totalLenghtOfElements (arr){
     let length = 0;
     for(element of arr){
         length += element.length;
@@ -20,7 +20,6 @@ function arrayManipulator(arr){
         let evenOdd = arr[i].length % 2 == 0 ? "even":"odd";
 
         if (evenOdd == "even") {
-            // Reverse is O(3N) time complexity
             revArr.push(arr[i].split("").reverse().join(""));
         } else {
             uppArr.push(arr[i].toUpperCase());

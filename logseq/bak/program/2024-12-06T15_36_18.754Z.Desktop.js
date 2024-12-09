@@ -14,11 +14,11 @@ function arrayManipulator(arr){
 
         if(evenOdd == "even"){
             if(palindrome){
-                palArr = palArr.push(palindrome);
+                palArr.push(palindrome);
             }
         } else {
             if(!palindrome){
-                uppArr = uppArr.push(arr[i].toUpperCase());
+                uppArr.push(arr[i].toUpperCase());
             }
         }
     }
@@ -38,6 +38,6 @@ function arrayManipulator(arr){
     return new arrObject(palArr, uppArr, longest);
 }
 
-input = ["hello", "madam", "tygrys", "ayla"];
+input = ["hello", "madam", "tygrys", "ayla", "racecar", "level", "world", "abba", "poop"];
 
 console.log(arrayManipulator(input));
