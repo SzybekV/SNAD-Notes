@@ -5,3 +5,5 @@
 - [[Data-Types]]
 - [[Iterations]]
 - [[Error Handling]]
+- [[Rest API]]
+- [[OOP JavaScript]]

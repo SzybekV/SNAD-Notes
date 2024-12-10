@@ -29,6 +29,8 @@ let v1 = new Vehicle(4, 40, 20);
 
 let a1 = new Airplane(200, 100, 300, 500, "JetsRUs");
 console.log(a1.move(3)); // Output: Moving along 3 times
-console.log(`Thank you for flying ${a1.airline}: Capcity: ${a1.capacity} passengers: ${a1.numPassengers} speed: ${a1.speed} position: ${a1.position} altitude: ${a1.altitude}.`); // Output: Thank you for flying JetsRUs: Capcity: 200 passengers: 0 speed: 100 position: 600 altitude: 500.
+console.log(`Thank you for flying ${a1.airline}: Capcity: ${a1.capacity} passengers: ${a1.numPassengers} speed: ${a1.speed} position: ${a1.position} altitude: ${a1.altitude}.`); 
+// Output: Thank you for flying JetsRUs: Capcity: 200 passengers: 0 speed: 100 position: 600 altitude: 500.
 console.log(a1.descend(200)); // Output: Moving along at an altitude of 300 metres
-console.log(`Thank you for flying ${a1.airline}: Capcity: ${a1.capacity} passengers: ${a1.numPassengers} speed: ${a1.speed} position: ${a1.position} altitude: ${a1.altitude}.`); // Output: Thank you for flying JetsRUs: Capcity: 200 passengers: 0 speed: 100 position: 600 altitude: 300.
+console.log(`Thank you for flying ${a1.airline}: Capcity: ${a1.capacity} passengers: ${a1.numPassengers} speed: ${a1.speed} position: ${a1.position} altitude: ${a1.altitude}.`); 
+// Output: Thank you for flying JetsRUs: Capcity: 200 passengers: 0 speed: 100 position: 600 altitude: 300.
